@@ -43,10 +43,10 @@
 */
 
     let input = prompt("Who is this");
-    if (!!input === true){
+    if (!!input){
         if (input === 'admin') {
             let password = prompt('enter password')
-            if (!!password === true) {
+            if (!!password) {
                 if (password === 'im in charge') {
                     alert("welcome")
                 } else {
